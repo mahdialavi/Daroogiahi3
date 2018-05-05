@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="rtl"
+    android:background="#cefaf8"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar3" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:textColor="#940101"
+       android:layout_marginRight="40dp"
+        android:text="انواع چای " />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+       >
+
+        <TextView
+                android:id="@+id/txtHerosdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp"
+            android:lineSpacingMultiplier="1.4"
+                android:padding="16dp"
+            android:textSize="16dp"
+            android:textColor="#000"
+                android:text=" دارو گیاهی : انواع داری های گیاهی موجود" />
+
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:background="#0b9454"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:id="@+id/linearAddBasket"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/showPrice"
+                android:textSize="20dp"
+                android:layout_marginRight="16dp"
+                android:textColor="#ffffff"
+                android:text="سفارش این محصول"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/basket"
+                android:layout_height="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

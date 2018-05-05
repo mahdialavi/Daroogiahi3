@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:background="#07ab9d"
+            android:layout_height="?attr/actionBarSize">
+        <LinearLayout
+            android:id="@+id/linearFilnalBasket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtBasketCont"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:src="@drawable/basket"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:layout_height="32dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgshare"
+                android:src="@drawable/share"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imagetoolbar"
+                    android:src="@drawable/logo"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="24dp"
+                    android:text="گیاهان دارویی"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    </LinearLayout>
+
+

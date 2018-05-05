@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar android:layout_width="match_parent"
+        android:background="#02b68c"
+        android:layout_height="?attr/actionBarSize"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginRight="32dp"
+                android:text="سبد خرید شما"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="جمع کل سفارش: "
+            android:textColor="#049f04"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTotalPrice"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="3000000"
+            android:textAlignment="center"
+            android:textColor="#049704"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:background="#9cffad"
+            android:paddingBottom="10dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:id="@+id/txtaddress"
+            android:paddingTop="10dp"
+            android:text="ثبت مشخصات"
+            android:textColor="#ff0000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/herosrecycle"
+                android:layout_width="match_parent"
+                android:scrollIndicators="none"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

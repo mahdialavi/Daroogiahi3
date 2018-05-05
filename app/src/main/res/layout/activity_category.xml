@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar3" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/back3"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtAdvie"
+        android:textSize="35dp"
+        android:background="@drawable/abc"
+        android:gravity="center"
+        android:textColor="#a40d3d"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:background="@drawable/abc"
+        android:id="@+id/txtaraghiat"
+        android:textColor="#a40d3d"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/txtdamnoosh"
+        android:background="@drawable/abc"
+
+
+        android:textColor="#a40d3d"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:background="@drawable/abc"
+        android:id="@+id/txtfruits"
+        android:gravity="center"
+        android:textColor="#a40d3d"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:id="@+id/txtasal"
+        android:textColor="#a40d3d"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/abc"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:id="@+id/txttea"
+            android:textColor="#a40d3d"
+            />
+    </LinearLayout>
+</LinearLayout>
